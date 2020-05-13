@@ -3,7 +3,7 @@
 	<head>
 	<meta charset = "UTF-8"/>
 	<link rel = "stylesheet" href = "style/Main_style.css"/>
-	<title>Web-page for Diploma 2020</title>
+	<title>Web-page for Diploma</title>
 	<script src="scripts/Main_script.js"></script>
 	</head>
 	
