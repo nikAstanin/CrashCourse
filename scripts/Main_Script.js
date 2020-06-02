@@ -31,7 +31,7 @@ function timer()
 	document.getElementById("count").innerHTML = counter;
 	setTimeout("timer()", 1000);
 	if (counter == 3)
-	window.location = "index.php"
+	window.location = "../index.php"
 }
 
 function valid (form)
