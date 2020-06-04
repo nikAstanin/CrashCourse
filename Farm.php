@@ -1,4 +1,5 @@
 	<!DOCTYPE html>
+	
 <?php
 $path_to_xml = 'xml-file.xml';
 ?>	
