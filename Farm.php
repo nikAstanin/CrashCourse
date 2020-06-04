@@ -1,8 +1,8 @@
+	<!DOCTYPE html>
 <?php
 $path_to_xml = 'xml-file.xml';
-?>
+?>	
 	
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset = "UTF-8"/>
