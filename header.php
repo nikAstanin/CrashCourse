@@ -1,7 +1,7 @@
 		<div id="wrapper">
 			<header>
 				<div id = "logo_image" onclick="logo_click(this)">
-					<img src="img/Logo.jpg" class = "logo_img">
+					<img src="img/Logo.jpg">
 				</div>
 				<div id = "Podpiska_logo">
 					<a href = "#"><img src="img/Podpiska.jpg"></a>
@@ -35,7 +35,7 @@
 				<button id = "btn">ВОЙТИ</button>
 				
 				<div id = "right_block">
-					<p id = "Gazeta"><a href = "Table.php">ГАЗЕТА ></a></p>
+					<p id = "Gazeta"><a href = "#">ГАЗЕТА ></a></p>
 					<p id = "Tovar"><a href = "#">ТОВАРЫ ></a></p>
 					<p id = "Partner"><a href = "#">ПАРТНЕРЫ ></a></p>
 					<p id = "Podpis"><a href = "#">ПОДПИСКА ></a></p>

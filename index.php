@@ -1,9 +1,9 @@
 	<!DOCTYPE html>
-<html>
+<html>		
 	<head>
 	<meta charset = "UTF-8"/>
 	<link rel = "stylesheet" href = "style/Main_style.css"/>
-	<title>Lab_4</title>
+	<title>Web-page for Diploma 2020</title>
 	<script src="scripts/Main_script.js"></script>
 	</head>
 	

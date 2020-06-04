@@ -8,8 +8,8 @@
 					<li><a href = "Farm.php">&nbsp > НОВЫЕ ВАКАНСИИ</a></li>
 					<li><a href = "JQueryForm.php">&nbsp > ПОДПИСКА</a></li>
 					<li><a href = "Ticks.php">&nbsp > ИНТЕРНЕТ МАГАЗИН</a></li>
-					<li><a href = "AjaxJQuery.php">&nbsp > ФАРМ-НАВИГАТОР</a></li>
-					<li><a href = "Gallery.php">&nbsp > КАК К НАМ ПРОЕХАТЬ</a></li>
+					<li><a href = "#">&nbsp > ФАРМ-НАВИГАТОР</a></li>
+					<li><a href = "#">&nbsp > КАК К НАМ ПРОЕХАТЬ</a></li>
 				</ul>
 			</footer>
 		</div>

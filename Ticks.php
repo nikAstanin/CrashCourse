@@ -4,7 +4,6 @@
 	<meta charset = "UTF-8"/>
 	<link rel = "stylesheet" href = "style/Main_style.css"/>
 	<title>Lab_2_Ticks</title>
-    <script src="scripts/jquery-3.4.0.min.js"></script>
 	<script src="scripts/Main_script.js"></script>
 	</head>
 	
@@ -29,10 +28,11 @@
                 </div>
                 
                 <div>
-                    <input type="button" value="Отметить всё" onclick = "btn_on()">
-                    <input type="button" value="Снять всё" onclick = "btn_off()">
-                    <input type="button" value="Инвертировать" onclick="inverse()">
+                    <input type="button" value="Отметить всё">
+                    <input type="button" value="Снять всё">
+                    <input type="button" value="Инвертировать">
                 </div>
+                
             </form>
         </main>
 <?php include 'footer.php'; ?>
