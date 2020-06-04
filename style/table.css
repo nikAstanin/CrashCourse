@@ -1,0 +1,126 @@
+/*Таблица*/
+.tableHeader 
+{
+    color: #0158b1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 30px 0 0 15px;
+}
+
+.table_1 
+{
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    /*border-bottom: 1px #b1b1b1 solid; */
+}
+
+
+.table_1 td 
+{
+    border-top: 1px #b1b1b1 solid;
+    padding: 7px 0;
+}
+
+.table_1  th 
+{
+    border-top: 1px #b1b1b1 solid;
+    padding: 12px 0;
+    background-color: #ececec;
+    text-align: left;
+}
+
+
+.table_1 th:first-child, .table_1 td:first-child
+{
+    padding-left: 15px;
+}
+
+.table_1 td:nth-child(2), .table_1 th:nth-child(2) 
+{
+    padding-right: 15px;
+}
+
+.table_1 td:nth-child(3), .table_1 th:nth-child(3) 
+{
+    /*Тут мог быть твой код*/
+}
+
+.table_1 td:nth-child(4), .table_1 th:nth-child(4)
+{
+    text-align: center;
+    padding-right: 25px;
+}
+
+.table_1 th:last-child, .table_1 td:last-child
+{
+    text-align: right;
+    padding-right: 25px;
+}
+
+
+
+
+
+/*Анимация CSS3*/
+@keyframes move 
+{
+    from 
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    25%
+    {
+        margin-left: 300px;
+        margin-top: 300px;
+    }
+
+    50%
+    {
+        margin-left: 300px;
+        margin-top: 0px;
+    }
+
+    75%
+    {
+        margin-left: 0px;
+        margin-top: 300px;
+    }
+
+    to 
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+@keyframes colorSize
+{
+    from
+    {
+        border: 2px white solid;
+        width: 100%;
+    }
+
+   
+
+    to 
+    {
+        border: 2px red solid;
+        width: 110%;
+    }
+}
+
+#logo_image:hover .logo_img
+{
+    border-radius: 5px;
+    animation: move 4s linear infinite alternate, colorSize 0.8s linear infinite alternate;
+    
+}
+
+

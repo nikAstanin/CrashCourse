@@ -1,10 +1,10 @@
 	<!DOCTYPE html>
-<html>		
+<html>
 	<head>
 	<meta charset = "UTF-8"/>
 	<link rel = "stylesheet" href = "style/Main_style.css"/>
-	<title>Web-page for Diploma</title>
-	<script src="scripts/Main_Script.js"></script>
+	<title>Lab_4</title>
+	<script src="scripts/Main_script.js"></script>
 	</head>
 	
 	<body>

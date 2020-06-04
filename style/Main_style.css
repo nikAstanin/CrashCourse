@@ -2,7 +2,6 @@ body
 {
 	margin:0px;
 	background-color: #e7e7e7;
-	/*background-color: khaki;*/
 }
 
 #wrapper
@@ -26,6 +25,7 @@ header
 	width:100px;
 	height:52px;
 	cursor: pointer;
+    position: relative;
 }
 
 
@@ -355,9 +355,8 @@ main textarea
 form
 {
 	padding: 20px;
-	width:350px;
+	width:450px;
 	margin: 0px auto;
-	
 }
 
 input[type=text]
@@ -567,4 +566,58 @@ li a:hover
 {
     width: 120px;
     height: 25px;
+}
+
+
+.inputs span
+{
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: 30px;
+	visibility: hidden;
+}
+
+#JQueryForm label
+{
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.inputs:nth-of-type(2) span
+{
+	margin-left: 65px;
+}
+
+.error span
+{
+	color: red;
+	visibility: visible;
+}
+
+.error input
+{
+	border: 1px solid red;
+}
+
+
+
+
+.photoGallery
+{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: auto;
+    border: 3px dashed #b4e6e7;
+}
+
+
+img.small_img
+{
+    border: 2px solid #7c95ce;
+    margin-top: 30px;
+    width: 200px;
+    height: 150px;
 }
