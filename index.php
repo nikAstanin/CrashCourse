@@ -9,7 +9,7 @@
 	
 	<body>
 
-<?php include 'header.php'; ?>
+<?php include 'header.phx'; ?>
 			
 			<main>
 				<span id = "main_news">НОВОСТИ</span>
